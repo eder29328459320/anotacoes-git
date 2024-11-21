@@ -1,0 +1,53 @@
+INSTALAÇÃO		intalação github
+				vs Code
+					extensões:  git graph 
+								git history
+					"ctrl  + ,digita files: exclude e desmarca **/.git 
+
+alteração 01
+
+				config	: altera configurações do git na sua maquina
+				
+				init  	: inicializar o projeto / repositorio
+				
+				branch	: informaçoes sobre branchs
+				
+				checkout: navegar pelas branchs
+				
+				status  : checar o que há de novo / mudanças
+							para ver alteraçoes a serem commitadas
+				
+				clone	: baixar um repositorio remoto para um repositoriolocal
+				
+				add		: rastrear e adicionar arquivos e mudanças em relação ao que ja havia registrado antes(stage)
+							para adicionar alterações no commit	
+				
+				commmit	: salvar alteraçoes / arquivo repositorio local 
+				
+				push	: fazer upload a partir do repositorio local, enviando ao repositório remoto
+				
+				pull	: fazero download de alteraçoes a partir do repositório remoto até o repositório local
+				
+				merge	: mesclar códigos distintos em único
+				
+				diff	: visualizar diferenças entre códigos-fontes
+								visualizar alteraçoes
+				
+				log		: visualizaro historico de publicaçoes de código-fontes
+				
+				stash	: reverte alteraçoes recentes momentaneamente e armazena tais alterações em memória para recuperação das alteraçoes posteriormente
+				
+				gitignore: muitos arquivos e artefatos de seu projeto não devem ser commitados por exemplo "env(dotenv) bibliotecas javascript
+				
+				
+				EXEMPLOS
+				
+				GIT COMMIT
+					git commit -m "mensagem"
+					
+						CODIGO - GIT ADD - GIT COMMIT - GIT PUSH - PULL REQUEST
+				
+				
+				GIT BRANCH
+				GIT STATUS
+				git log

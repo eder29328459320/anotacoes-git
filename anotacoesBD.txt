@@ -1,0 +1,63 @@
+01 		DQL
+
+SELECT
+
+				SELECT nome 
+				FROM cidade;
+				
+				SELECT * 
+				FROM cidade;
+				
+				
+				SELECT nome,populacao/2 
+				FROM cidade;
+				
+				SELECT DISTINCT nome 
+				FROM cidade;
+				
+				- o  distinct vai retornar os 
+				resultados e não vai repetir
+				cidade iguais, vai somar tudo 
+				
+				SELECT nome
+				FROM cidade
+				WHERE  populacao <10000;
+				
+				SELECT nome,populacao
+				FROM cidade
+				WHERE populacao BETWEEN 90000 AND 100000
+
+				SELECT nome,populacao AS polucaoDaCidade 
+				FROM cidade;
+				
+				- o nome que será exibido da populacao 
+				sera polucaoDaCidade
+				
+				SELECT C.nome,C.populacao,P.populacao
+				FROM cidade AS C,pais AS P;
+				
+				- nessa situação sera para exibição 
+				remomeado cidade para C
+				remomeado pais para P
+				para fazer uma busca onde houver
+				colunas que se repete nas tabelas
+				
+				
+				SELECT nome 
+				FROM cidade
+				WHERE nome
+				LIKE 'Sor%';
+				
+				
+				SELECT nome
+				FROM cidade
+				ORDER BY nome
+				
+				SELECT nome
+				FROM cidade
+				ORDER BY nome DESC;
+				
+	
+
+				
+				
