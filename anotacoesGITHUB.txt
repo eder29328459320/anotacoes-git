@@ -51,3 +51,4 @@ alteração 01
 				GIT BRANCH
 				GIT STATUS
 				git log
+				git commit -m "fazendo primeiro commit"
