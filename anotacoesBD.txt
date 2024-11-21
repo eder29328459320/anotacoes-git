@@ -57,7 +57,7 @@ SELECT
 				FROM cidade
 				ORDER BY nome DESC;
 				
-	
+	oneline
 
 				
 				

@@ -46,7 +46,8 @@ alteração 01
 				EXEMPLOS
 				
 				GIT COMMIT
-					git commit -m "mensagem"
+					git commit -m "mensagem"             vai comitar todos
+					git restore --staged nomedoarquivo   vai comitar seprados
 					
 						CODIGO - GIT ADD - GIT COMMIT - GIT PUSH - PULL REQUEST
 				
@@ -55,6 +56,7 @@ alteração 01
 				GIT ADD NOMEARQUIVO
 				GIT BRANCH
 				GIT STATUS
+				GIT DIFF para sair :q
 				git log
 				git log --pretty=oneline
 				git commit -m "fazendo primeiro commit"
