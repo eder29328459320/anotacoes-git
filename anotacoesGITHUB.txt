@@ -39,7 +39,9 @@ alteração 01
 				
 				gitignore: muitos arquivos e artefatos de seu projeto não devem ser commitados por exemplo "env(dotenv) bibliotecas javascript
 				
-				git config --global user.name "blablabla" : 	usado na primeira vez para logar  
+				git config --global user.name "blablabla" : 	usado na primeira vez para logar
+				git config --global user.email "pessoa@gmail.com" 
+				
 				
 				EXEMPLOS
 				
@@ -49,7 +51,10 @@ alteração 01
 						CODIGO - GIT ADD - GIT COMMIT - GIT PUSH - PULL REQUEST
 				
 				
+				GIT ADD. 
+				GIT ADD NOMEARQUIVO
 				GIT BRANCH
 				GIT STATUS
 				git log
+				git log --pretty=oneline
 				git commit -m "fazendo primeiro commit"
