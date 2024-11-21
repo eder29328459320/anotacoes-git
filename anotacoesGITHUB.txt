@@ -42,14 +42,25 @@ alteração 01
 				git config --global user.name "blablabla" : 	usado na primeira vez para logar
 				git config --global user.email "pessoa@gmail.com" 
 				
+				git branch -M main    vai renomear a branch
 				
+1º envio		GIT REMOTE ADD ORIGIN HTT.....
+					vai no github no navegador copia e cola o link
+		
+2º ato envio	git push -u origin main
+					quando enviar a primeira vez completo
+				git push
+					quando for segunda vez ja sabe 
+			
+					GIT REMOTE GET-URL
+						para constar onde está linkado seu github
 				EXEMPLOS
 				
 				GIT COMMIT
 					git commit -m "mensagem"             vai comitar todos
 					git restore --staged nomedoarquivo   vai comitar seprados
 					
-						CODIGO - GIT ADD - GIT COMMIT - GIT PUSH - PULL REQUEST
+ordem				CODIGO - GIT ADD - GIT COMMIT - GIT PUSH - PULL REQUEST
 				
 				
 				GIT ADD. 
