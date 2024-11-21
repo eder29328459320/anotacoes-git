@@ -39,6 +39,7 @@ alteração 01
 				
 				gitignore: muitos arquivos e artefatos de seu projeto não devem ser commitados por exemplo "env(dotenv) bibliotecas javascript
 				
+				git config --global user.name "blablabla" : 	usado na primeira vez para logar  
 				
 				EXEMPLOS
 				
